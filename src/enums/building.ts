@@ -1,0 +1,17 @@
+export enum enumBuildingTypes {
+  AGRICULTURE = 'Agriculture',
+  COMMERCIAL = 'Commercial',
+  DATA_CENTER = 'Data Center',
+  EDUCATIONAL_INSTITUTION = 'Educational Institution',
+  GOVERNMENT = 'Government',
+  HEALTHCARE = 'Healthcare',
+  INDUSTRIAL_MANUFACTURING = 'Industrial/Manufacturing',
+  MARTITIME = 'Maritime',
+  MIXED_USE = 'Mixed-Use',
+  RECREATIONAL = 'Recreational',
+  RELIGIOUS_CULTURAL = 'Religious/Cultural',
+  RESERCH = 'Research',
+  RESIDENTIAL = 'Residential',
+  Transportation = 'Transportation',
+  WAREHOUSE_STORAGE = 'Warehouse/Storage',
+}

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "421984960610",
+    "project_id": "fmpro-90814",
+    "storage_bucket": "fmpro-90814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421984960610:android:b75df26b38341446b9d13b",
+        "android_client_info": {
+          "package_name": "com.facilitymaxpro.fmproadmins"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuN1wTyMMVCiKl0m_5t0o2iBz3WBxWVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421984960610:android:c22127eaad5d8d7cb9d13b",
+        "android_client_info": {
+          "package_name": "com.facilitymaxpro.fmproapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuN1wTyMMVCiKl0m_5t0o2iBz3WBxWVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421984960610:android:981ccf5a6bd75f71b9d13b",
+        "android_client_info": {
+          "package_name": "com.facilitymaxpro.fmprorequestor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuN1wTyMMVCiKl0m_5t0o2iBz3WBxWVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
