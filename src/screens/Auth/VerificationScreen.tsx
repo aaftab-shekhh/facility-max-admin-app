@@ -49,10 +49,10 @@ export const VerificationScreen = ({navigation, route}: VerificationProps) => {
               accessToken: resLogIn.data.accessToken,
               refreshToken: resLogIn.data.refreshToken,
             });
+            dispatch(setIsLoggedIn(true));
             const token = await messaging().getToken();
             await notificationsAPI.enable({deviceType: Platform.OS, token});
             dispatch(getMeTC({}));
-            dispatch(setIsLoggedIn(true));
           } else {
             navigation.goBack();
             handleServerNetworkError({
@@ -64,7 +64,7 @@ export const VerificationScreen = ({navigation, route}: VerificationProps) => {
           navigation.navigate('Password', {email, verificationCode: +userCode});
         }
       }
-    } catch (err) {
+    } catch (err : any) {
       handleServerNetworkError(err.response.data);
     } finally {
       dispatch(setIsLoading(false));

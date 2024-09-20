@@ -2,7 +2,8 @@ import axios from 'axios';
 import {ITokens, getTokens, setTokens} from './storage';
 import {store} from '../bll/store';
 import {logoutTC} from '../bll/reducers/app-reducer';
-export const API_URL = 'https://api.facilitymaxpro.com/';
+// export const API_URL = 'https://api.facilitymaxpro.com/';
+export const API_URL = 'https://dev.api.facilitymaxpro.com/';
 
 export const instance = axios.create({
   baseURL: API_URL,
