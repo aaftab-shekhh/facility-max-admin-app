@@ -54,7 +54,7 @@ export const AssetAssignment: FC<AssetAssignmentProps> = ({
     try {
       await assetsAPI.deleteFolder(id);
       setFolders(prevState => prevState.filter(panel => panel.id !== id));
-    } catch (err) {
+    } catch (err: any) {
       handleServerNetworkError(err.response.data);
       console.log('delete folder err ==>>', err.response.data.message);
     }
@@ -121,7 +121,7 @@ export const AssetAssignment: FC<AssetAssignmentProps> = ({
       {isCreateNewPanel || pageId ? null : (
         <View style={[stylesModal.modalButtons]}>
           <MyButton
-            text="+ Create New Panel"
+            text="+ Create Asset Assignment"
             action={togleCreateNewPanel}
             style="main"
           />
