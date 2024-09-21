@@ -64,7 +64,7 @@ export const VerificationScreen = ({navigation, route}: VerificationProps) => {
           navigation.navigate('Password', {email, verificationCode: +userCode});
         }
       }
-    } catch (err : any) {
+    } catch (err: any) {
       handleServerNetworkError(err.response.data);
     } finally {
       dispatch(setIsLoading(false));
